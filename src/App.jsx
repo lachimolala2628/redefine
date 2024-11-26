@@ -1,10 +1,11 @@
 import React from 'react'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <main>
-      <h1 className='font-bold bg-red-600'>Welcome to the Redefine App!</h1>
-      <p>This is a sample React application.</p>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
+      <section className='z-0 min-h-screen bg-blue-500' />
     </main>
   )
 }
